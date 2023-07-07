@@ -40,13 +40,6 @@ let timelineElements = [
         location: 'Efterskolen Frydensborg',
         date: '2009',
         icon: 'school'  
-    },
-    {
-        id: 7,
-        title: '0 til 7 klasse',
-        location: 'Folkeskole',
-        date: '2001',
-        icon: 'school'  
     }
 ]
 export default timelineElements
