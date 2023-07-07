@@ -94,6 +94,7 @@ export const Home = () => {
                     </figure>
                 </article>
             </section> */}
+            
             {/* cv */}
             <section className={styles.sectionCv}>
                 <article >
