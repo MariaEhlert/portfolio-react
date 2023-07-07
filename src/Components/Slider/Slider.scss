@@ -1,0 +1,33 @@
+.sliderWrapper{
+    position: relative;
+    .image{
+        width: 100%;
+    }
+    .rightArrow{
+        position: absolute;
+        top: 45%;
+        right: 0;
+        font-size: 2.5rem;
+        color: black;
+        z-index: 3;
+        cursor: pointer;
+    }
+    .leftArrow{
+        position: absolute;
+        top: 45%;
+        left: 0;
+        font-size: 2.5rem;
+        z-index: 3;
+        color: black;
+        cursor: pointer;
+    }
+    .slide{
+        opacity: 0;
+        transition-duration: 1s ease;
+        &.active {
+            opacity: 1;
+            transition-duration: 1s;
+            transform: scale(1.08);
+        }
+    }
+}

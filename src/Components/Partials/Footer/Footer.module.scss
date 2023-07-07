@@ -1,0 +1,36 @@
+.footerWrapper {
+    padding: 2%;
+    h4 {
+        color: black;
+        padding-bottom: 1%;
+        padding-top: 1%;
+    }
+    article {
+        text-align: center;
+        a {
+            width: 15%;
+            
+            display: block;
+            text-decoration: none;
+            font-size: 1.5vw;
+            color: black;
+            padding-bottom: 1%;
+            cursor: pointer;
+            svg {
+                color: black;
+                font-size: 1.2vw;
+            }
+            &::after {
+                content: '';
+                width: 0px;
+                height: 1px;
+                display: block;
+                background: black;
+                transition: 300ms;
+            }
+            &:hover::after {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,11 +1,13 @@
-import { Nav } from '../Nav/Nav'
+import styles from "./Header.module.scss"
 
-
-export const Header = (props) => {
+export const Header = () => {
 
 	return (
-		<header>
-			<Nav />
+		<header className={styles.headerWrapper}>
+				<article>
+					<h1>MARIA GOTTLIEB EHLERT</h1>
+					<h2>Frontend Udvikler</h2>
+				</article>
 		</header>
 	)
-  }
+}

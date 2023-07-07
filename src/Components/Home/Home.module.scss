@@ -1,0 +1,253 @@
+.sectionSkills {
+    article {
+        .skillsWrapper {
+            padding-top: 2%;
+            figure {
+                width: 90%;
+                border: 2px solid rgba(255, 255, 255, 0.21);
+                border-radius: 27px;
+                padding-top: 1%;
+                figcaption {
+                    display: flex;
+                    justify-content: center;
+                }
+                h6{
+                    padding-top: 2%;
+                }
+                p{
+                    padding-top: 4%;
+                }
+            }
+            .skills {
+                ul {                  
+                    li {
+                        display: inline-block;
+                        margin: 1%;
+                        text-align: center;
+                        cursor:context-menu;
+                        &:hover {
+                            background-color: rgba(255, 255, 255, 0.305);
+                            transition: all 1s ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.sectionAbout {
+    article {
+        figure {
+            padding-top: 1%;
+            gap: 1%;
+            .aboutText{
+                p{
+                    padding-bottom: 2%;
+                }
+            }
+        }
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .sectionSkills {
+        article {
+            .skillsWrapper {
+                width: 60%;
+                padding-top: 2%;
+                display: grid;
+                grid-template-columns: 1fr;
+                figure {
+                    margin-bottom: 2%;
+                    figcaption {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+                .skills {
+                    ul {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;                    
+                    }
+                }
+            }
+        }
+    }
+    .sectionAbout {
+        article {
+            figure {
+                display: grid;
+                grid-template-columns: 1fr;
+                .aboutText{
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    .sectionSkills {
+        article {
+            .skillsWrapper {
+                width: 60%;
+                padding-top: 2%;
+                display: grid;
+                grid-template-columns: 1fr;
+                figure {
+                    margin-bottom: 2%;
+                    figcaption {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+                .skills {
+                    ul {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;                    
+                    }
+                }
+            }
+        }
+    }
+    .sectionAbout {
+        article {
+            figure {
+                display: grid;
+                grid-template-columns: 1fr;
+                .aboutText{
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .sectionSkills {
+        article {
+            .skillsWrapper {
+                width: 100%;
+                padding-top: 2%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                figure {
+                    margin-bottom: 2%;
+                    figcaption {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+                .skills {
+                    grid-column: 1 / span 2;
+                    ul {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;                    
+                    }
+                }
+            }
+        }
+    }
+    .sectionAbout {
+        article {
+            figure {
+                display: grid;
+                grid-template-columns: 1fr;
+                .aboutText{
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    .sectionSkills {
+        article {
+            .skillsWrapper {
+                width: 100%;
+                padding-top: 2%;
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
+                figure {
+                    margin-bottom: 2%;
+                    figcaption {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+                .skills {
+                    grid-column: 1 / span 2;
+                    ul {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;                    
+                    }
+                }
+            }
+        }
+    }
+    .sectionAbout {
+        article {
+            figure {
+                display: grid;
+                grid-template-columns: 1fr;
+                .aboutText{
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .sectionSkills {
+        article {
+            width: 100%;
+            .skillsWrapper {
+                width: 100%;
+                padding-top: 2%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                figure {
+                    figcaption {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+                .skills {
+                    ul {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;                    
+                    }
+                }
+            }
+        }
+    }
+    .sectionAbout {
+        article {
+            figure {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                .aboutText{
+                    padding-top: 2%;
+                    p{
+                        text-align: start;
+                    }
+                }
+                figcaption{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
